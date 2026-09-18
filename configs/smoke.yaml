@@ -1,0 +1,20 @@
+competition:
+  name: "BirdCLEF 2026"
+  slug: "birdclef-2026"
+  metric: "competition-defined audio classification score"
+data:
+  input_dir: null
+  target: "labels"
+  sample_rows: 200
+validation:
+  strategy: holdout
+  n_splits: 2
+  shuffle: true
+run:
+  seed: 42
+  deterministic: true
+  output_root: outputs
+model:
+  name: smoke
+  params: {}
+
