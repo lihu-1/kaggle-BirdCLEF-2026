@@ -1,0 +1,10 @@
+domain:
+  task: audio_classification
+  input_modalities: [audio]
+  validation_group: recording_site_or_time
+  primary_risk: overlapping_clips_from_same_recording
+  first_baseline: logmel_cnn_or_lightweight_audio_model
+  audio:
+    sample_rate: TBD
+    clip_seconds: TBD
+    mel_bins: TBD
