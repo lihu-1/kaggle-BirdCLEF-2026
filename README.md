@@ -1,5 +1,7 @@
 # BirdCLEF 2026
 
+> 推理方案与运行说明： [SOLUTION.md](SOLUTION.md)
+
 Private solution repository for `birdclef-2026`.
 
 ## 1. Objective
