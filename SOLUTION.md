@@ -1,5 +1,7 @@
 # BirdCLEF 2026 推理方案
 
+> **当前状态：**本文介绍目前的最终推理方案；其余内容仍在制作与复盘中，后续将逐步补充。
+
 ## 任务与入口
 
 对测试音频的时间窗口预测各物种出现的概率。入口为 [birdclef-2026-single-model.ipynb](birdclef-2026-single-model.ipynb)，输出 `submission.csv`。
